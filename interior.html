@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Interior Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h2>Welcome to Our Interior Design Studio</h2>
+                <p>Creating beautiful spaces that you'll love.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate interior designers dedicated to transforming your spaces into stunning environments.</p>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="LR.png" alt="livingroomimg" height="1000" width="1000">
+                        <h3>Living Room Design</h3>
+                    </div>
+                    <div class="project">
+                        <img src="Kitchen.png" alt="Kitchen rennovation" height="1000" width="1000">
+                        <h3>Kitchen Renovation</h3>
+                    </div>
+                    <div class="project">
+                        <img src="Bedroom.png" alt="Bedroom space" height="1000" width="1000">
+                        <h3>Bedroom Makeover</h3>
+                    </div>
+                    <div class="project">
+                        <img src="office1.png" alt="office" height="1000" width="1000">
+                        <h3>Office Space Design</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
